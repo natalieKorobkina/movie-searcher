@@ -30,7 +30,7 @@ function pageCulculator() {
 };
 
 function reqPage() {
-  fetch(`http://www.omdbapi.com/?apikey=ba5fc9b1&s=${title.value}&page=${pageNumber}`)
+  fetch(`https://www.omdbapi.com/?apikey=ba5fc9b1&s=${title.value}&page=${pageNumber}`)
   .then(response => response.json())
   .then((json) => {
   arrMovies = json.Search; 
@@ -88,7 +88,7 @@ content.addEventListener('click', (e) => {
     if((e.target.nodeName === "DIV") && (e.target.classList.contains('add-content'))) {
     let movieId = '';
     movieId = e.target.dataset.movieid;
-    fetch(`http://www.omdbapi.com/?apikey=ba5fc9b1&i=${movieId}&plot=full`)
+    fetch(`https://www.omdbapi.com/?apikey=ba5fc9b1&i=${movieId}&plot=full`)
     .then(response => response.json())
     .then((json) => {
     e.target.innerHTML = "";
