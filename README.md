@@ -6,11 +6,11 @@ Used Web technologies:
 
 Movie Searcher
 
-Movie Searcher is application that allows aasily search the "omdbapi" API database for movies, TV series, trailers and movie reviews. With Movie Searcher, you can search, find new movies, TV series, ratings – all in one convenient place.
+Movie Searcher is application that allows easily search the "omdbapi" API database for movies, TV series, trailers and movie reviews. With Movie Searcher, you can search, find new movies, TV series, ratings – all in one convenient place.
 
 Install
 
-The app doesn't require any additional installation. You can start to play by clicking on file “index.html”. Also, you can drag-and-drop it to your browser.
+The app doesn't require any additional installation. You can start to use it by clicking on file “index.html”. Also, you can drag-and-drop it to your browser.
 
 License
 
